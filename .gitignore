@@ -1,0 +1,62 @@
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+
+# Visual Studio temporary files
+.vs/
+.vscode/
+*.ncb
+*.opensdf
+*.sdf
+*.pdb
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+packages/
+# Ignore NuGet metadata files
+*.nuspec
+*.snupkg
+
+# Rider IDE
+.idea/
+
+# Mac / Linux
+*.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# MAUI specific
+*.db
+*.db-shm
+*.db-wal
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+
+# iOS
+*.app
+*.ipa
+*.xcarchive
+*.mobileprovision
+*.plist
+
+# Crashlytics / Firebase
+fabric.properties
+crashlytics-build.properties
+
+# User secrets
+secrets.json
